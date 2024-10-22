@@ -1,27 +1,11 @@
 {
   "expo": {
-    "name": "mi-app",
-    "slug": "mi-app",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "scheme": "mi-app", 
+    "platforms": ["ios", "android", "web"], 
+    "extra": {
+      "googleClientId": 881020710896-v1d8r3go1ejb2k8trfqhmtj5fmae4dtn.apps.googleusercontent.com,
+      "facebookAppId": "facebook-app-id",
+      "appleClientId": "apple-client-id"
     }
   }
 }
